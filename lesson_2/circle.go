@@ -17,5 +17,5 @@ func main() {
 
 	fmt.Println("Вы задали площадь окружности равную:", area)
 	fmt.Print("Диаметр такой окружности равен ", fmt.Sprintf("%.2f", diameter), ", "+
-		"а длина 20", fmt.Sprintf("%.2f", length))
+		"а длина ", fmt.Sprintf("%.2f", length))
 }
